@@ -6,6 +6,8 @@
 .container {
   width: 960px;
   margin: 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
 
   &:after {
     visibility: hidden;
@@ -19,11 +21,21 @@
 
 header {
   background: navy;
-  padding: .5em;
+  color: white;
 
   a {
     color: white;
     text-decoration: none;
+  }
+}
+
+html, body {
+  background: #efefef;
+}
+
+main {
+  .container {
+    background: white;
   }
 }
 
