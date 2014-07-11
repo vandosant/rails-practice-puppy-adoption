@@ -1,7 +1,10 @@
 # USING THIS TEMPLATE
 
+* `cp -r rails-practice-template my-new-thing`
+* `rm -rf .git .idea`
 * add a new database name to config/database.yml
 * change the `replace_me_controller` with something real
+* put images in the project directory and link them under `wireframes`
 
 # Rails Practice
 
@@ -22,4 +25,4 @@ Note: email/password combinations for existing users populated by `rake db:seed`
 
 ## Wireframes
 
-<img src="project/01-empty-wall.png" />
+TODO: add pictures here
