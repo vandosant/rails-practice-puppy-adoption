@@ -1,0 +1,5 @@
+class ReplaceMeController < ApplicationController
+
+
+
+end
