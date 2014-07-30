@@ -21,8 +21,19 @@ You can run specs with:
 Note: email/password combinations for existing users populated by `rake db:seed` can be found in the db/seeds.rb file.
 
 ## Stories
+As a user, I can click on "Add Me" and the puppy will be added to my dashboard
+in the appropriate place.
+
+As a user, I can view my Puppy Dashboard.
+
+As a user, I can click on "Make a Play Date" on my dashboard and schedule a time
+to meet a puppy.
+
+As a user, I can view my upcoming play dates from my dashboard.
+
+Extra Credit:
+As a user, I receive a reminder email the day before my puppy play date.
 
 
 ## Wireframes
 
-TODO: add pictures here
