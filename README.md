@@ -26,6 +26,8 @@ to meet a puppy.
 
 As a user, I can view my upcoming play dates from my dashboard.
 
+As a user, if I enter a date that was in past, I get an error message saying "You cannot chose a date in the past!"
+
 Extra Credit:
 As a user, I receive a reminder email the day before my puppy play date.
 
