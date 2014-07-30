@@ -1,5 +1,0 @@
-class ReplaceMeController < ApplicationController
-
-
-
-end
