@@ -73,3 +73,23 @@ main {
     margin-left: 6.3em;
   }
 }
+h1 {
+  color: #9933FF;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.puppy-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  img {
+   width: 150px;
+   height: 150px;
+   position: 50% 50%;
+  }
+}
+.puppy {
+  margin-bottom: 1em;
+}
