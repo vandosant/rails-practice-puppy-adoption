@@ -1,13 +1,8 @@
-# USING THIS TEMPLATE
+# gPuppy Adoption
 
-* `cp -r rails-practice-template my-new-thing`
-* `rm -rf .git .idea`
-* add a new database name to config/database.yml
-* change the `replace_me_controller` with something real
-* put images in the project directory and link them under `wireframes`
+I need your help! I am trying to create a website to help the puppies that I rescued find a good home. I need a way to be able to coordinate when prospective owners want to play with the puppy! The stories that I need done are below. And remember, adopt don't shop!
 
-# Rails Practice
-
+# Rails Practice Puppy Adoption!
 ## Setup
 
 * `bundle`
@@ -36,4 +31,5 @@ As a user, I receive a reminder email the day before my puppy play date.
 
 
 ## Wireframes
+
 
