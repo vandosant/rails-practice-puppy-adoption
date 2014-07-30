@@ -33,5 +33,8 @@ As a user, I receive a reminder email the day before my puppy play date.
 
 
 ## Wireframes
-
+<img src="public/Puppy Adoption.png" />
+<img src="public/Puppy Dashboard.png" />
+<img src="public/Play Date Scheduler.png" />
+<img src="public/Puppy Error.png" />
 
