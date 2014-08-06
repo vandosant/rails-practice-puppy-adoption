@@ -5,13 +5,18 @@ class PlayDatesController < ApplicationController
   end
 
   def create
-    PlayDate.create(
+    @puppy = Puppy.find(params[:puppy_id])
+    @play_date = PlayDate.new(
       play_date_params.merge(
         puppy_id: params[:puppy_id],
         user_id: current_user.id
       )
     )
-    redirect_to my_puppy_dashboard_path
+    if @play_date.save
+      redirect_to my_puppy_dashboard_path
+    else
+      render :new
+    end
   end
 
   private

@@ -3,6 +3,11 @@
   <%= image_tag @puppy.image, class: "puppy-image" %>
 </div>
 <%= form_for [@puppy, @play_date], html: {class: "play-date-form"} do |f| %>
+  <% if f.object.errors.any? %>
+    <% f.object.errors.full_messages.each do |error| %>
+      <div class="errors"><%= error %></div>
+    <% end %>
+  <% end %>
   <div class="form-input">
     <%= f.label :date %>
     <%= f.datetime_field :date %>
