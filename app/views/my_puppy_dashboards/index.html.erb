@@ -1,4 +1,14 @@
 <h2>Added Puppies:</h2>
 <% @user.added_puppies.each do |added_puppy| %>
   <%= image_tag added_puppy.puppy.image, class: "puppy-image" %>
+  <%= link_to "Make a Play Date", new_puppy_play_date_path(puppy_id: added_puppy.puppy.id) %>
 <% end %>
+
+<div>
+  <h2>Upcoming Play Dates:</h2>
+  <% @user.play_dates.each do |play_date| %>
+    <%= image_tag play_date.puppy.image %>
+    <%= play_date.date.to_formatted_s(:long) %>
+    <%= play_date.guest_count %> People Attending
+  <% end %>
+</div>

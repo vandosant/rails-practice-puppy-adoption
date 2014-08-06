@@ -1,0 +1,13 @@
+<%= form_for [@puppy, @play_date] do |f| %>
+  <div class="form-input">
+    <%= f.label :date %>
+    <%= f.datetime_field :date %>
+  </div>
+  <div class="form-input">
+    <%= f.label :guest_count, "Number of people attending" %>
+    <%= f.number_field :guest_count %>
+  </div>
+  <div class="form-submint">
+    <%= f.submit "Schedule" %>
+  </div>
+<% end %>

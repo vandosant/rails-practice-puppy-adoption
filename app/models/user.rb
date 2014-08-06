@@ -5,4 +5,5 @@ class User < ActiveRecord::Base
   validates :name, presence: true, uniqueness: {case_sensitive: false}
 
   has_many :added_puppies
+  has_many :play_dates
 end
