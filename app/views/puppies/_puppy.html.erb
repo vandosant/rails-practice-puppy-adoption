@@ -1,3 +1,4 @@
 <div class="puppy">
   <%= image_tag puppy.image %>
+  <%= link_to "Add Me!", add_puppy_path(puppy.id), method: "POST" %>
 </div>

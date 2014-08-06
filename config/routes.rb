@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   get "signin" => "sessions#new", as: :signin
   post "signin" => "sessions#create"
   get "signout" => "sessions#destroy", as: :signout
+  get "my_puppy_dashboard" => "my_puppy_dashboards#index", as: :my_puppy_dashboard
+  post "my_puppy_dashboard/add/:id" => "my_puppy_dashboards#add", as: :add_puppy
 end
