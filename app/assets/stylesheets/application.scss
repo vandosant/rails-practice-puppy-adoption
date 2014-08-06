@@ -93,3 +93,37 @@ h1 {
 .puppy {
   margin-bottom: 1em;
 }
+
+.puppy-image-container {
+  width: 40%;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.puppy-image {
+  height: 20em;
+}
+
+.play-date-form {
+  margin: 2em auto;
+  width: 20em;
+  label {
+    display: inline-block;
+    width: 13em;
+  }
+  .form-input {
+    padding-bottom: 1em;
+  }
+  input[type=number] {
+    display: inline-block;
+    width: 2em;
+  }
+
+  input[type=datetime] {
+    width: 10em;
+  }
+
+  input[type=submit] {
+    width: 8em;
+  }
+}
