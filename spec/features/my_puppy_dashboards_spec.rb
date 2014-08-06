@@ -13,7 +13,7 @@ feature 'managing puppies' do
 
     visit my_puppy_dashboard_path
 
-    expect(page).to have_css(".puppy-image")
+    expect(page).to have_xpath('//img[@src="http://imgur.com/r6OBF6k.jpg"]')
     expect(page).to have_content "Added Puppies:"
   end
 
@@ -33,6 +33,6 @@ feature 'managing puppies' do
     click_link "My Puppy Dashboard"
 
     expect(page).to have_content "Added Puppies:"
-    expect(page).to have_css(".puppy-image")
+    expect(page).to have_xpath('//img[@src="http://imgur.com/r6OBF6k.jpg"]')
   end
 end
