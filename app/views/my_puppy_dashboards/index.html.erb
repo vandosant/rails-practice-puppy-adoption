@@ -1,4 +1,4 @@
 <h2>Added Puppies:</h2>
 <% @user.added_puppies.each do |added_puppy| %>
-<img src='<%= added_puppy.puppy.image %>'>
+  <%= image_tag added_puppy.puppy.image, class: "puppy-image" %>
 <% end %>
